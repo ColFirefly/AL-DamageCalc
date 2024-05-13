@@ -1,0 +1,83 @@
+body {
+  font-family: Tahoma, Arial, sans;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  font-family: Tahoma, Arial, sans;
+}
+
+.outer-div {
+  width: 100%;
+  max-width: 1280px;
+  margin: 75px;
+  padding: 5% 0;
+  border: 3px solid #000;
+}
+
+.inner-div {
+  padding: 0 10%;
+}
+
+.twrapper {
+  border: 1px solid #000;
+  padding: 0.1em 0.1em;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  margin: 0;
+  padding: 0.25em;
+  border: 1px solid #666666;
+  border-collapse: collapse;
+}
+
+.thead {
+  display: table-header-group;
+  width: 100%;
+}
+
+.trow {
+  display: table-row;
+  width: 100%;
+}
+
+.tcel,
+.thedc {
+  display: table-cell;
+  min-width: 30px;
+  padding: 0.1em 0.5em;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ship {
+  max-width: 60px;
+}
+
+#FP,
+#Rld,
+#Trp,
+#Eff1,
+#Eff2 {
+  width: 3em;
+  padding: 0.2em 0.25em;
+}
+
+/*
+select.icon-menu option {
+  font-family: Tahoma, Arial, sans;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-left: 30px;
+}
+select#weapons option[value="ijn100mm"] {
+  background-image: url(https://azurlane.koumakan.jp/w/images/3/3d/31000.png);
+}
+*/

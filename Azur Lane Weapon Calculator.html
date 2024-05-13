@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Azur Lane Weapon Calculator</title>
+    <link type="text/css" rel="stylesheet" href="azurlane.css" title="CSS for AL Weapon Calc">
+    <script src="Azur Lane Weapon Calculator.js" defer></script>
+  </head>
+  <body onload="createWeapons()">
+    <div class="outer-div">
+      <h1> Azur Lane Weapon Calculator </h1>
+      <div class="inner-div">
+        <div class="twrapper">
+          <h2> Ship </h2>
+          <div class="table">
+          <div class="thead">
+            <div class="thedc ship">FP</div>
+            <div class="thedc ship">Trp</div>
+            <div class="thedc ship">Rld</div>
+            <div class="thedc ship">Eff1</div>
+            <div class="thedc ship">Eff2</div>
+          </div>
+          <div class="trow">
+            <div class="tcel"><input type="number" size="3" id="FP" name="FP" value="100"></div>
+            <div class="tcel"><input type="number" size="3" id="Trp" name="Trp" value="100"></div>
+            <div class="tcel"><input type="number" size="3" id="Rld" name="Rld" value="100"></div>
+            <div class="tcel"><input type="number" size="3" id="Eff1" name="Eff1" value="100"></div>
+            <div class="tcel"><input type="number" size="3" id="Eff2" name="Eff2" value="100"></div>
+          </div>
+        </div>
+        <h2>Bonuses</h2>
+        <div class="table">
+          <div class="thead">
+            <div class="thedc">FP Bonus</div>
+            <div class="thedc">Rld Bonus</div>
+          </div>
+          <div class="trow">
+            <div class="tcel"><input type="number" size="3" id="FPBonus" name="FPBonus" value="0">%</div>
+            <div class="tcel"><input type="number" size="3" id="RldBonus" name="RldBonus" value="0">%</div>
+          </div>
+        </div>
+        <h2>Weapons</h2>
+        <div class="twrapper">
+          <div class="table">
+            <div class="thead">
+              <div class="thedc wName">Name</div>
+              <div class="thedc">DPH Lt</div>
+              <div class="thedc">DPH Med</div>
+              <div class="thedc">DPH Hvy</div>
+              <div class="thedc">DPS Lt</div>
+              <div class="thedc">DPS Med</div>
+              <div class="thedc">DPS Hvy</div>
+              <div class="thedc">Cycle Time</div>
+            </div>
+            <div class="trow">
+              <div class="tcel" id="wName">
+                <select name="weapons" id="weapons">
+                </select>
+              </div>
+              <div class="tcel" id="wDPHLt"></div>
+              <div class="tcel" id="wDPHMed"></div>
+              <div class="tcel" id="wDPHHvy"></div>
+              <div class="tcel" id="wDPSLt"></div>
+              <div class="tcel" id="wDPSMed"></div>
+              <div class="tcel" id="wDPSHvy"></div>
+              <div class="tcel" id="wCycle"></div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
